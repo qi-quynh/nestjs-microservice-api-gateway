@@ -17,8 +17,10 @@ Before running the project, ensure you have the following installed:
 
 Clone the repository to your local machine:
 
+```bash
 git clone https://github.com/qi-quynh/nestjs-microservice-api-gateway.git
 cd nestjs-microservice-api-gateway
+```
 
 ### 2. Install Dependencies
 Install the required dependencies for all microservices:
@@ -59,11 +61,11 @@ Repeat this for each microservice (API Gateway, reader-mgt, and article-mgt).
 
 API Endpoints
 ```http
-POST /api/save-reader: Save a new reader.
-GET /api/get-all-readers: Retrieve all readers.
-POST /api/save-article: Save a new article.
-GET /api/get-all-articles: Retrieve all articles.
-POST /api/delete-article: Delete an article by ID.
+POST /api/save-reader        # Save a new reader
+GET  /api/get-all-readers    # Retrieve all readers
+POST /api/save-article       # Save a new article
+GET  /api/get-all-articles   # Retrieve all articles
+POST /api/delete-article     # Delete an article by ID
 ```
 
 
