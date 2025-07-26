@@ -58,10 +58,12 @@ npm run start:dev
 Repeat this for each microservice (API Gateway, reader-mgt, and article-mgt).
 
 API Endpoints
+```http
 POST /api/save-reader: Save a new reader.
 GET /api/get-all-readers: Retrieve all readers.
 POST /api/save-article: Save a new article.
 GET /api/get-all-articles: Retrieve all articles.
 POST /api/delete-article: Delete an article by ID.
+```
 
 
